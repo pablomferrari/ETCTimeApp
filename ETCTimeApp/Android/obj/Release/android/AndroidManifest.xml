@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="ETCTimeApp.Droid" android:versionCode="2" android:versionName="2.4">
+  <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="21" />
+  <application android:label="ETC TimeApp" android:icon="@drawable/main" android:debuggable="false" android:name="mono.android.app.Application">
+    <activity android:configChanges="orientation|screenSize" android:label="ETC TimeApp 2.4" android:theme="@android:style/Theme.Holo.Light" android:name="etctimeapp.droid.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <receiver android:name="etctimeapp.droid.services.ConnectivityReceiverService">
+      <intent-filter android:priority="-1000">
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+      </intent-filter>
+    </receiver>
+    <service android:name="etctimeapp.droid.services.DbSyncService">
+      <intent-filter>
+        <action android:name="com.ETCTimeApp.DbSyncService" />
+      </intent-filter>
+    </service>
+    <service android:name="etctimeapp.droid.services.locationservices.SaveLocationService">
+      <intent-filter>
+        <action android:name="com.ETCTimeApp.SaveLocationService" />
+      </intent-filter>
+    </service>
+    <service android:name="etctimeapp.droid.services.locationservices.StartLocationTimer">
+      <intent-filter>
+        <action android:name="com.ETCTimeApp.StartLocationTimer" />
+      </intent-filter>
+    </service>
+    <receiver android:name="etctimeapp.droid.services.BootReceiverService">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+      </intent-filter>
+    </receiver>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="ETCTimeApp.Droid.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

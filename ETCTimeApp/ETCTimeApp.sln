@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ETCTimeApp", "ETCTimeApp\ETCTimeApp.shproj", "{2D28DBEB-20F8-45E2-A8F0-C739EAB8159B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETCTimeApp.Droid", "Android\ETCTimeApp.Droid.csproj", "{02E47CEB-2E53-4EF2-AF96-D1C265A1B914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETCTimeApp.NUnitTests", "ETCTimeApp.NUnitTests\ETCTimeApp.NUnitTests.csproj", "{FEB88E10-DE7E-44B4-97E4-426F6F3ACE1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02E47CEB-2E53-4EF2-AF96-D1C265A1B914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E47CEB-2E53-4EF2-AF96-D1C265A1B914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E47CEB-2E53-4EF2-AF96-D1C265A1B914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E47CEB-2E53-4EF2-AF96-D1C265A1B914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB88E10-DE7E-44B4-97E4-426F6F3ACE1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB88E10-DE7E-44B4-97E4-426F6F3ACE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB88E10-DE7E-44B4-97E4-426F6F3ACE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB88E10-DE7E-44B4-97E4-426F6F3ACE1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.VersionControlPolicy = $2
+		$2.inheritsSet = Mono
+		version = 2.0
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

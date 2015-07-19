@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="ETCTimeApp.Droid" android:versionCode="2" android:versionName="2.4">
+	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="21" />
+	<application android:label="ETC TimeApp" android:icon="@drawable/main"></application>
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+</manifest>

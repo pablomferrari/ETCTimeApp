@@ -1,0 +1,33 @@
+﻿<Properties StartupItem="Android\ETCTimeApp.Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ETCTimeApp\ViewModel\MainContent.cs">
+    <Files>
+      <File FileName="ETCTimeApp\ViewModel\MainContent.cs" Line="88" Column="43" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="c:\Users\pferrari\Documents\Projects\ETCTimeApp\ETCTimeApp\ETCTimeApp\ViewModel\NonBillableTab.cs" line="49" column="1" />
+      <Breakpoint file="C:\Users\pferrari\Documents\Projects\ETCTimeApp\ETCTimeApp\ETCTimeApp\DataAccessLayer\ETCDbRepository.cs" line="117" column="1" />
+      <Breakpoint file="C:\Users\pferrari\Documents\Projects\ETCTimeApp\ETCTimeApp\ETCTimeApp\DataAccessLayer\ETCDbRepository.cs" line="123" column="1" />
+      <Breakpoint file="C:\Users\pferrari\Documents\Projects\ETCTimeApp\ETCTimeApp\Android\Services\DbSyncService.cs" line="46" column="1" />
+      <Breakpoint file="C:\Users\pferrari\Documents\Projects\ETCTimeApp\ETCTimeApp\ETCTimeApp\ViewModel\MainContent.cs" line="22" column="1" />
+      <Breakpoint file="C:\Users\PabloM\Desktop\ETCTimeApp_10-9\ETCTimeApp_old\ETCTimeApp\ETCTimeApp.NUnitTests\SyncTests.cs" line="58" column="1" />
+      <Breakpoint file="C:\Users\PabloM\Desktop\ETCTimeApp_10-9\ETCTimeApp_old\ETCTimeApp\ETCTimeApp\ViewModel\MainContent.cs" line="160" column="1" />
+      <Breakpoint file="C:\Users\PabloM\Desktop\ETCTimeApp_10-9\ETCTimeApp_old\ETCTimeApp\ETCTimeApp\ViewModel\BillableTab.cs" line="129" column="1" />
+      <Breakpoint file="C:\Users\PabloM\Desktop\ETCTimeApp_10-9\ETCTimeApp_old\ETCTimeApp\Android\Services\DbSyncService.cs" line="33" column="1" />
+      <Breakpoint file="C:\Users\PabloM\Desktop\ETCTimeApp_10-9\ETCTimeApp_old\ETCTimeApp\Android\Helpers\DbUpdateHelper.cs" line="14" column="1" />
+      <Breakpoint file="C:\Users\PabloM\Desktop\ETCTimeApp_10-9\ETCTimeApp_old\ETCTimeApp\Android\Services\DbSyncService.cs" line="29" column="1" />
+      <Breakpoint file="C:\Users\PabloM\Desktop\ETCTimeApp_10-9\ETCTimeApp_old\ETCTimeApp\Android\Helpers\DbUploadHelper.cs" line="63" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="ETCTimeApp\DataAccessLayer\ETCDbRepository.cs" line="162" offsetX="298" offsetY="2576" expression="lastEntry" liveUpdate="False" />
+    <Watch file="Android\Services\DbSynch.cs" line="187" offsetX="627" offsetY="2976" expression="entries" liveUpdate="False" />
+    <Watch file="Android\Services\DbSyncService.cs" line="84" offsetX="375" offsetY="1328" expression="download" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <AuthorInfo Name="Pablo Ferrari" Email="pm.fs@hotmail.com" Copyright="pmfs" Company="Cache Friendly Solutions LLC" Trademark="" />
+  <DisabledProjects>
+    <String>ETCTimeApp.Tests\ETCTimeApp.Tests.csproj</String>
+  </DisabledProjects>
+</Properties>

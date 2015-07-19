@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{2D28DBEB-20F8-45E2-A8F0-C739EAB8159B}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ETCTimeApp</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Exception2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\GpsLocation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\IdBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\IdGuidBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\IdStringBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Job.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\JobHistory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\PhoneAssignmentHistory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\ProjectCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\TaskHistory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\TimeEntry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Contracts\BusinessEntityBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Contracts\Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Contracts\GuidBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Contracts\IBusinessEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Contracts\StringBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Contracts\TimestampBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Contracts\VersionBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Managers\JobManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Managers\PhoneNumberManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Managers\ProjectCodeManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Managers\TimeManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\ETCDbRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataLayer\ETCDb.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataLayer\SQLite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\BillableTab.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\JobCodeLayout.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\MainContent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\NonBillableTab.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\StartStopLayout.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\WorkHistory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Managers\GpsLocationManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\LoadingTab.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\ActivityPageViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\BaseViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\EntriesTab.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\HistoryListView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)..\Android\Services\" />
+    <Folder Include="$(MSBuildThisFileDirectory)BusinessLayer\" />
+    <Folder Include="$(MSBuildThisFileDirectory)DataAccessLayer\" />
+    <Folder Include="$(MSBuildThisFileDirectory)DataLayer\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ViewModel\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)BusinessLayer\About.txt" />
+  </ItemGroup>
+</Project>
